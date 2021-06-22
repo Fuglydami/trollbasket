@@ -3,9 +3,9 @@
   background-color: var(--color-white);
 }
 .header {
-  position: fixed;
   width: 100%;
   max-width: 40rem;
+  margin-bottom: -5.5rem;
   color: var(--text-color-2);
 }
 

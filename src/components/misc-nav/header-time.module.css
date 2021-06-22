@@ -6,6 +6,7 @@
   padding: 0 2.3rem;
   padding-top: 2rem;
   padding-bottom: 0.7rem;
+  background-color: white;
 }
 .network__container {
   display: flex;

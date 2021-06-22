@@ -5,7 +5,7 @@ import Wifi from '../../assets/icons/Wi-Fi.png';
 import Network from '../../assets/icons/Combined Shape.png';
 
 const HeaderTime = () => {
-  let time = new Date().toLocaleTimeString().slice(0, 4);
+  let time = new Date().toLocaleTimeString().slice(0, 5);
   const [ctime, setCtime] = useState(time);
 
   const updateTime = () => {
@@ -15,20 +15,22 @@ const HeaderTime = () => {
   setInterval(updateTime, 1000);
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.header_time_minute}>{time}</div>
-        <div className={styles.network__container}>
-          <div>
-            <img src={Network} alt='network_icon' />
+      <nav className={styles.nav}>
+        <header className={styles.header}>
+          <div className={styles.header_time_minute}>{time}</div>
+          <div className={styles.network__container}>
+            <div>
+              <img src={Network} alt='network_icon' />
+            </div>
+            <div className={styles.icon_spacing}>
+              <img src={Wifi} alt='wifi_icon' />
+            </div>
+            <div className={styles.icon_spacing}>
+              <img src={Battery} alt='battery_icon' />
+            </div>
           </div>
-          <div className={styles.icon_spacing}>
-            <img src={Wifi} alt='wifi_icon' />
-          </div>
-          <div className={styles.icon_spacing}>
-            <img src={Battery} alt='battery_icon' />
-          </div>
-        </div>
-      </header>
+        </header>
+      </nav>
     </>
   );
 };

@@ -13,6 +13,7 @@ import { formatPrice } from 'utils/price-format';
 import { Button, Header, CartItem, ProductGrid } from 'components';
 
 import styles from 'styles/Cart.module.css';
+import HeaderTime from 'components/misc-nav/header-time';
 
 const Cart = () => {
   const history = useHistory();
@@ -37,6 +38,7 @@ const Cart = () => {
 
   return (
     <div className='page'>
+      <HeaderTime />
       <Header title='Cart' hasRightAction={false} />
       <section className={styles.cartitem__section}>
         <div className='container'>
@@ -76,7 +78,7 @@ const Cart = () => {
         <div className='container'>
           <ul className={styles.recently__list}>
             <li>
-              <span>Recently Viewd</span>
+              <span>Recently Viewed</span>
               <span>
                 <Link>View All</Link>
               </span>

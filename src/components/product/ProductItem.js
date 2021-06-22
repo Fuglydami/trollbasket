@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Image } from "components";
-import { formatPrice } from "utils/price-format";
-import styles from "./Product.module.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Image } from 'components';
+import { formatPrice } from 'utils/price-format';
+import styles from './Product.module.css';
 
 const ProductItem = ({ product }) => {
   return (
