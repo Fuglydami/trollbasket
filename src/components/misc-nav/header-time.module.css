@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.3rem;
+  padding-top: 2rem;
+  padding-bottom: 0.7rem;
+}
+.network__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_spacing {
+  margin-left: 0.5rem;
+}
+.header_time_minute {
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 18px;
+  width: 54px;
+
+  text-align: center;
+}
