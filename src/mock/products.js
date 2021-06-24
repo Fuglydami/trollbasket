@@ -1,6 +1,6 @@
 export const products = [
   {
-    id: '1234ads421egjds1',
+    id: '1',
     name: 'Free sample small tote bag gucci fen...',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
@@ -10,7 +10,7 @@ export const products = [
     stock: 5,
   },
   {
-    id: '1234ads421egjds2',
+    id: '2',
     name: 'NIKE Huararche 2019',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
@@ -20,7 +20,7 @@ export const products = [
     stock: 5,
   },
   {
-    id: '1234ads421egjds3',
+    id: '3',
     name: 'Free sample small',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
@@ -31,7 +31,7 @@ export const products = [
     stock: 5,
   },
   {
-    id: '1234ads421egjds4',
+    id: '4',
     name: 'Free sample small tote bag gucci fen...',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
@@ -42,7 +42,7 @@ export const products = [
     stock: 5,
   },
   {
-    id: '1234ads421egjds5',
+    id: '5',
     name: 'Free sample small tote bag gucci fen...',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
@@ -53,7 +53,7 @@ export const products = [
     stock: 5,
   },
   {
-    id: '1234ads421egjds6',
+    id: '6',
     name: 'Free sample small tote bag gucci fen...',
     description:
       'Get comfy and comfortable with the new 2019 designer neaker for all your events',
