@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiHome, FiTag, FiPackage, FiPocket, FiMenu } from 'react-icons/fi';
 import styles from './BottomNav.module.css';
 import Home from '../../assets/icons/Home.png';
 import Buy from '../../assets/icons/Buy.png';
