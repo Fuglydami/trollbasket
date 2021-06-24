@@ -33,7 +33,9 @@
 .review {
   margin-top: 4px;
 }
-
+.review {
+  margin-bottom: 7rem;
+}
 .accordian ul li {
   display: flex;
   justify-content: space-between;

@@ -2,14 +2,12 @@ import React from 'react';
 import styles from './Header.module.css';
 import { useHistory } from 'react-router-dom';
 import { FiSearch, FiChevronLeft, FiShoppingCart } from 'react-icons/fi';
-import HeaderTime from 'components/misc-nav/header-time';
 
 const Header = ({ title = 'Header', hasRightAction = true, cartQty }) => {
   const history = useHistory();
 
   return (
     <>
-      {/* <HeaderTime /> */}
       <header className={styles.header}>
         <div className='container'>
           <div className={styles.header__actions}>

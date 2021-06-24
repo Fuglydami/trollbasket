@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from './header-time.module.css';
 import Battery from '../../assets/icons/Battery.png';
 import Wifi from '../../assets/icons/Wi-Fi.png';
